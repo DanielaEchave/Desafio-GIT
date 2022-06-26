@@ -1,5 +1,10 @@
 /* 
-
+Colores
+#FF1700
+#0E49B5
+#153E90
+#EEEEEE
+#06FF00
     font-family: 'Antonio', sans-serif;
  */
 
@@ -131,9 +136,10 @@ aside {
     text-align: left;
     letter-spacing: 5px;
     padding: 10px 50px;
-    background: #fc4a1a; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -144,7 +150,7 @@ aside nav ul li {
     font-size: 14px;
 }
 aside nav ul li h1 {
-    color: black;
+    color: #ff8201;
     padding: 20px;
     margin: 15px;
     font-family: Arial, Helvetica, serif;
@@ -153,7 +159,6 @@ aside nav ul li h1 {
 aside nav ul li h1:hover {
     background-color: #EEEEEE;
     color: black;
-    
 }
 aside nav ul li ul {
     position: absolute;
@@ -187,9 +192,10 @@ aside nav ul li ul li a:hover{
     display: flex;
     justify-content: center;
     height: auto;
-    background: #fc4a1a; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .logosMarcas a img {
@@ -206,9 +212,10 @@ aside nav ul li ul li a:hover{
 #categorias {
     grid-area: catalogo;
     background-color: #EEEEEE;
-    background: #fc4a1a; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .categorias{
     display: grid;
