@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Explosion</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo/logo_todo_explosion-removebg-preview.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+        </style>
+</head>
+<body>
+
+    <div id="grid-container">
+        <!-- ENCABEZADO -->
+        <header class="header">
+           <div class="divHeader">
+                <nav class="encabezado">
+                    <ul class="encabezado__header">
+                        <li><a href="../pages/Index.html">INICIO</a></li>
+                        <li><a href="../pages/categorias.html">CATEGORIAS</a></li>
+                        <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
+                        <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="logo__header">
+                    <a href="../pages/Index.html">
+                        <img src="../Imagenes/Logo/logo_todo_explosion-removebg-preview.png" alt="logo" class="logo__img">
+                    </a>
+                </div>
+           </div>
+        </header>
+
+        <!-- FORMULARIO -->
+        <div id="formulario">
+            
+            <div class="formularioContacto">
+                <br>
+                <h1 class="form">Formulario de contacto</h1>
+                <br>
+                <form action="enviar.php" method="get">
+
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Ingrese su email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone">Celular</label>
+                        <input type="tel" id="phone" name="phone" value class="form-control" placeholder="Ingrese su celular" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="caja">Consulta</label>
+                        <textarea name="caja" id="caja" cols="30" rows="5" placeholder="Ingrese su consulta que a la brevedad sera respondida." required></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+                    
+
+
+                </form>
+            </div>
+        </div>
+
+
+         <!-- PIE DE PAGINA -->
+         <footer id="footer">
+            <div class="footer">
+                <nav class="info__footer">
+                        <a href="../pages/preguntas frecuentes.html">Preguntas frecuentes</a>
+                </nav>
+                
+                
+                <!-- Redes Sociales -->
+                
+                <div class="redes">
+                    <h4 class="redes">Seguinos</h4>
+                    <a href="https://www.instagram.com/todoexplosion/" target="_blank">
+                        <img src="../Imagenes/Logo/Diseño sin título (1).png" alt="icono-instagram" height="40px" width="auto" class="redes_instagram">
+                    </a>
+                    <a href="https://www.facebook.com/TODOEXPLOSION/" target="_blank">
+                        <img src="../Imagenes/Logo/Diseño sin título (3).png" alt="icono-facebook" height="40px" width="auto">
+                    </a>
+                </div>
+                
+            
+
+
+                <!-- Ubicación 
+                <div class="ubicacion">
+                    <h4>DIRECCION</h4>
+                    <img src="../Imagenes/Logo/mapa.png" alt="" height="45px" width="auto" class="ubicacion__logo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26200.575428098622!2d-58.398545000000006!3d-34.829284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd499a30a66bb%3A0xa96ca299e26edc13!2sAv.%20Hip%C3%B3lito%20Yrigoyen%2015040%2C%20B1852EMA%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653784239026!5m2!1ses-419!2sar" width="250px" height="250px" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__googlemaps"></iframe>
+                </div>-->   
+
+                
+            </div>
+            <div class="whatsapp">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="../Imagenes/Logo/WhatsApp-Logo-PNG-Pic-Background.png" alt="" width="150px">
+                </a>
+            </div>
+            <p class="footer__p">&copy; 2022 - Todo Explosion</p> 
+        </footer>
+    </div>
+
+
+
+</body>
+</html>
